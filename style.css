@@ -38,7 +38,7 @@ button:hover{
 	background-color: #3c00ff97;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,li{
 	color: yellow;
 }
 
@@ -101,6 +101,13 @@ span.line{
   color: red;
 }
 
+.quote{
+	font-style: italic;
+	color: darkgoldenrod;
+	background-color: #000000;
+	border: 2px solid rgba(184, 135, 11, 0.579);
+	padding: 10px;
+}
 
 #home{
 	background-color: #3c00ff42 ;
@@ -116,6 +123,19 @@ span.line{
 	-ms-animation: blink .75s linear infinite;
 	-o-animation: blink .75s linear infinite;
 	 animation: blink .75s linear infinite;
+}
+
+ul,ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.formula{
+	scale: 0.5;
+}
+
+.source-list{
+	list-style: none;
 }
 
 #myProgress {
